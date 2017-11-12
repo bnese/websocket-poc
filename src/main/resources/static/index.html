@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>WebSocket example</title>
+    <script src="WebSocketApp.js"></script>
+</head>
+
+<body>
+<H1>WebSocket Example</H1>
+
+<div>
+    Address: <input type="text" id="address" value="ws://localhost:8080/countingService">
+    <input type="button" onclick="connect()" value="connect"/>
+    <input type="button" onclick="disconnect()" value="disconnect"/>
+</div>
+
+<div>
+    Message: <input type="text" id="message" value="text">
+    <input type="button" onclick="sendMessage()" value="send"/>
+</div>
+
+<div>
+    Response: <span id="response"></span>
+</div>
+
+</body>
+</html>
